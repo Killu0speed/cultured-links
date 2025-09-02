@@ -4,7 +4,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Recommended
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6352924416:AAGHhs-T1WWcAYamVZ1Jq3UKl1mV_Wk_vMA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8458865116:AAEGvy3EwrycmlAX8yF7hIoR8mvbr8ojJfc")
 APP_ID = int(os.environ.get("APP_ID", "27108998"))
 API_HASH = os.environ.get("API_HASH", "f4fc03493766db361d7e85ed8974fe2f")
 
@@ -17,7 +17,7 @@ PORT = os.environ.get("PORT", "8013")
 ##---------------------------------------------------------------------------------------------------
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://naruto:naruto@cluster0.h9wsftd.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://narutokilluaa_db_user:NhFdVndD2aX3EEaQ@cluster0.i9thmyb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 ##---------------------------------------------------------------------------------------------------
